@@ -1,6 +1,9 @@
 ## DOCUMENTATION
-# Utilisier JPA pour communiquer avec une base de données
+# Utiliser JPA pour communiquer avec une base de données
 https://openclassrooms.com/en/courses/4668056-construisez-des-microservices/7652623-utilisez-jpa-pour-communiquer-avec-une-base-de-donnees
+
+# Guide JPA
+https://fr.linkedin.com/pulse/guide-spring-data-jpa-ce-que-tout-d%C3%A9veloppeur-java-devrait-globl%C3%A9hi-zccge
 
 # Guide Annotations
 https://codingnomads.com/java-spring-jpa-annotations
@@ -36,3 +39,6 @@ https://go-vmware.broadcom.com/tnz-spring-newsletter-subscribe
 
 # Spring Blog
 https://spring.io/blog
+
+# Cours Openclassrooms
+https://openclassrooms.com/fr/courses/6982461-utilisez-spring-data-pour-interagir-avec-vos-bases-de-donnees

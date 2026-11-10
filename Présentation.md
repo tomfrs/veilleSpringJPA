@@ -1,5 +1,6 @@
 # C'est quoi ?
-Spring Data JPA est un module de Spring, facilitant l'accès aux données.
+Spring Data JPA est un module de Spring, sert à grandement faciliter l'accès aux bases de données relationnelles.
+Acronyme de "Java Persistence API"
 
 # Comment ça fonctionne ?
 On peut créer des requêtes avec :
@@ -19,8 +20,18 @@ Il faut d'abord importer les dépendances nécessaires dans le pom.xml du projet
  @Column permet de modifier la configuration d'un colonne
  @Transient pour un champ que l'on ne veut pas enregistrer dans la base de données
 
+  ![alt text](image-1.png)
 
- ![alt text](image-1.png)
+ Il faut désormais créer un repository, une interface permettant d'opérer sur les tables créées, échangeant du code Java aux données.
+ Cette interface dispose de différentes méthodes pour en gérer les données
+ save() permet d'ajouter une ligne ou la mettre à jour
+ findById() récupère une entité par son id.
+ findAll() retourne toutes les entités d'une base de données.
+ deleteById() supprime une entité de la base de données par son id.
+ Sort.by() permet de trier les entités d'une classe par un champ spécifié.
 
- # Où l'utiliser ?
- Sprind Data JPA est la norme pour une application Spring manipulant une base relationnelle
+ Davantage requêtes simples avec noms de méthodes ou requêtes personnalisées existent pour plus de contrôle des données via JPA.
+
+![alt text](image-2.png)
+
+
