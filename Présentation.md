@@ -5,6 +5,8 @@ Acronyme de "Java Persistence API"
 
 Il définit la persistance des données objet dans une base de données, Hibernate lui est un ORM qui permet la transition des données entre la base et le code.
 
+![alt text](image-4.png)
+
 # Comment ça fonctionne ?
 On peut créer des requêtes avec :
 - L'annotation @Query -> requêtes natives
