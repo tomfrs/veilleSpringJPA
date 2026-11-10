@@ -1,6 +1,9 @@
 # C'est quoi ?
 Spring Data JPA est un module de Spring, sert à grandement faciliter l'accès aux bases de données relationnelles.
+
 Acronyme de "Java Persistence API"
+
+Il définit la persistance des données objet dans une base de données, Hibernate lui est un ORM qui permet la transition des données entre la base et le code.
 
 # Comment ça fonctionne ?
 On peut créer des requêtes avec :
