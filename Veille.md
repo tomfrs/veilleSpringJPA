@@ -2,6 +2,9 @@
 # Utilisier JPA pour communiquer avec une base de données
 https://openclassrooms.com/en/courses/4668056-construisez-des-microservices/7652623-utilisez-jpa-pour-communiquer-avec-une-base-de-donnees
 
+# Guide Annotations
+https://codingnomads.com/java-spring-jpa-annotations
+
 # Référence officielle
 (JPA, Envers, Wiki)
 https://docs.spring.io/spring-data/jpa/reference/
